@@ -1,4 +1,3 @@
-// import "../styles/navigation.css";
 // import "../styles/globals.css";
 import Image from "next/image";
 
