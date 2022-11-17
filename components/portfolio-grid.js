@@ -1,3 +1,11 @@
+import Image from "next/legacy/image";
+import portfolioImage1 from "../public/img/portfolio/1.jpg";
+import portfolioImage2 from "../public/img/portfolio/2.jpg";
+import portfolioImage3 from "../public/img/portfolio/3.jpg";
+import portfolioImage4 from "../public/img/portfolio/4.jpg";
+import portfolioImage5 from "../public/img/portfolio/5.jpg";
+import portfolioImage6 from "../public/img/portfolio/6.jpg";
+
 function PortfolioGrid () {
     return (
         <section className="page-section bg-light" id="portfolio">
@@ -14,7 +22,8 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="img/portfolio/1.jpg" alt="..." />
+                                {/* <img className="img-fluid" src="img/portfolio/1.jpg" alt="..." /> */}
+                                <Image src={portfolioImage1} alt="..." layout='responsive' className="img-fluid" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Threads</div>
@@ -29,7 +38,8 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="img/portfolio/2.jpg" alt="..." />
+                                {/* <img className="img-fluid" src="img/portfolio/2.jpg" alt="..." /> */}
+                                <Image src={portfolioImage2} alt="..." layout='responsive' className="img-fluid" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Explore</div>
@@ -44,7 +54,8 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="img/portfolio/3.jpg" alt="..." />
+                                {/* <img className="img-fluid" src="img/portfolio/3.jpg" alt="..." /> */}
+                                <Image src={portfolioImage3} alt="..." layout='responsive' className="img-fluid" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Finish</div>
@@ -59,7 +70,8 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="img/portfolio/4.jpg" alt="..." />
+                                {/* <img className="img-fluid" src="img/portfolio/4.jpg" alt="..." /> */}
+                                <Image src={portfolioImage4} alt="..." layout='responsive' className="img-fluid" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Lines</div>
@@ -74,7 +86,8 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="img/portfolio/5.jpg" alt="..." />
+                                {/* <img className="img-fluid" src="img/portfolio/5.jpg" alt="..." /> */}
+                                <Image src={portfolioImage5} alt="..." layout='responsive' className="img-fluid" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Southwest</div>
@@ -89,7 +102,8 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="img/portfolio/6.jpg" alt="..." />
+                                {/* <img className="img-fluid" src="img/portfolio/6.jpg" alt="..." /> */}
+                                <Image src={portfolioImage6} alt="..." layout='responsive' className="img-fluid" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Window</div>
