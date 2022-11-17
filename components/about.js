@@ -1,4 +1,8 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
+import aboutPhoto1 from "../public/img/about/1.jpg"
+import aboutPhoto2 from "../public/img/about/2.jpg"
+import aboutPhoto3 from "../public/img/about/3.jpg"
+import aboutPhoto4 from "../public/img/about/4.jpg"
 
 function About () {
     return (
@@ -11,13 +15,12 @@ function About () {
                 <ul className="timeline">
                     <li>
                         <div className="timeline-image">
+                            {/* <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt="..." /> */}
                             <Image 
                                 className="rounded-circle img-fluid" 
-                                src="/img/about/1.jpg" 
+                                src={aboutPhoto1} 
                                 alt="..." 
                                 layout="responsive"
-                                width="80"
-                                height="80"
                             />
                         </div>
                         <div className="timeline-panel">
@@ -29,7 +32,15 @@ function About () {
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/2.jpg" alt="..." /></div>
+                        <div className="timeline-image">
+                            {/* <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt="..." /> */}
+                            <Image 
+                                className="rounded-circle img-fluid" 
+                                src={aboutPhoto2} 
+                                alt="..." 
+                                layout="responsive"
+                            />
+                        </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>March 2011</h4>
@@ -39,7 +50,15 @@ function About () {
                         </div>
                     </li>
                     <li>
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/3.jpg" alt="..." /></div>
+                        <div className="timeline-image">
+                            {/* <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt="..." /> */}
+                            <Image 
+                                className="rounded-circle img-fluid" 
+                                src={aboutPhoto3} 
+                                alt="..." 
+                                layout="responsive"
+                            />
+                        </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>December 2015</h4>
@@ -49,7 +68,15 @@ function About () {
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/4.jpg" alt="..." /></div>
+                        <div className="timeline-image">
+                            {/* <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt="..." /> */}
+                            <Image 
+                                className="rounded-circle img-fluid" 
+                                src={aboutPhoto4} 
+                                alt="..." 
+                                layout="responsive"
+                            />
+                        </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>July 2020</h4>
