@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import Masthead from '../components/masthead'
 import Navigation from '../components/navigation'
 import PortfolioGrid from '../components/portfolio-grid'
@@ -11,14 +11,14 @@ import Footer from '../components/footer'
 export default function Home() {
   return (
     <div >
-      <Navigation />
-      <Masthead />
-      <Services />
-      <PortfolioGrid />
+      {/* <Navigation /> */}
+      {/* <Masthead /> */}
+      {/* <Services /> */}
+      {/* <PortfolioGrid /> */}
       <About />
-      <Team />
-      <Clients />
-      <Footer />
+      {/* <Team /> */}
+      {/* <Clients /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
