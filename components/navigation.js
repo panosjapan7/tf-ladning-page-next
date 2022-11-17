@@ -1,11 +1,15 @@
 // import "../styles/globals.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
+import logoImage from "../public/img/navbar-logo.svg";
 
 function Navigation () {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div className="container">
-                <a className="navbar-brand" href="#page-top"><Image src="/img/navbar-logo.svg" alt="..." width={200} height="300"/></a> 
+                <a class="navbar-brand" href="#page-top">
+                    {/* <img src="/img/navbar-logo.svg" alt="..." /> */}
+                    <Image src={logoImage} alt="..." layout="intrinsic" />
+                </a> 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars ms-1"></i>
