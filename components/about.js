@@ -20,7 +20,7 @@ function About () {
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto1} 
                                 alt="..." 
-                                layout="responsive"
+                                layout='responsive'
                             />
                         </div>
                         <div className="timeline-panel">
@@ -38,7 +38,7 @@ function About () {
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto2} 
                                 alt="..." 
-                                layout="responsive"
+                                layout='responsive'
                             />
                         </div>
                         <div className="timeline-panel">
@@ -56,7 +56,7 @@ function About () {
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto3} 
                                 alt="..." 
-                                layout="responsive"
+                                layout='responsive'
                             />
                         </div>
                         <div className="timeline-panel">
@@ -74,7 +74,7 @@ function About () {
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto4} 
                                 alt="..." 
-                                layout="responsive"
+                                layout='responsive'
                             />
                         </div>
                         <div className="timeline-panel">
