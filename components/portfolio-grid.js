@@ -23,13 +23,13 @@ function PortfolioGrid () {
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
 
-                                {/* <img className="img-fluid" src="img/portfolio/1.jpg" alt="..." /> */}
+                                <img className="img-fluid" src="img/portfolio/1.jpg" alt="..." />
 
-                                <picture>
+                                {/* <picture>
                                     <source media="(max-width: 767px)" srcSet="img/portfolio/1-w246.jpg" />
                                     <source media="(min-width: 768px)" srcSet="img/portfolio/1.jpg" />
                                     <img src="img/portfolio/1.jpg" alt="..." className="img-fluid" />
-                                </picture>
+                                </picture> */}
 
                                 {/* <Image src={portfolioImage1} alt="..." layout='responsive' className="img-fluid" /> */}
 
@@ -47,12 +47,15 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                {/* <img className="img-fluid" src="img/portfolio/2.jpg" alt="..." /> */}
-                                <picture>
+
+                                <img className="img-fluid" src="img/portfolio/2.jpg" alt="..." />
+
+                                {/* <picture>
                                     <source media="(max-width: 767px)" srcSet="img/portfolio/2-w246.jpg" />
                                     <source media="(min-width: 768px)" srcSet="img/portfolio/2.jpg" />
                                     <img src="img/portfolio/2.jpg" alt="..." className="img-fluid" />
-                                </picture>
+                                </picture> */}
+
                                 {/* <Image src={portfolioImage2} alt="..." layout='responsive' className="img-fluid" /> */}
                             </a>
                             <div className="portfolio-caption">
@@ -68,12 +71,15 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                {/* <img className="img-fluid" src="img/portfolio/3.jpg" alt="..." /> */}
-                                <picture>
+
+                                <img className="img-fluid" src="img/portfolio/3.jpg" alt="..." />
+                                
+                                {/* <picture>
                                     <source media="(max-width: 767px)" srcSet="img/portfolio/3-w246.jpg" />
                                     <source media="(min-width: 768px)" srcSet="img/portfolio/3.jpg" />
                                     <img src="img/portfolio/3.jpg" alt="..." className="img-fluid" />
-                                </picture>
+                                </picture> */}
+
                                 {/* <Image src={portfolioImage3} alt="..." layout='responsive' className="img-fluid" /> */}
                             </a>
                             <div className="portfolio-caption">
@@ -89,12 +95,15 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                {/* <img className="img-fluid" src="img/portfolio/4.jpg" alt="..." /> */}
-                                <picture>
+
+                                <img className="img-fluid" src="img/portfolio/4.jpg" alt="..." />
+
+                                {/* <picture>
                                     <source media="(max-width: 767px)" srcSet="img/portfolio/4-w246.jpg" />
                                     <source media="(min-width: 768px)" srcSet="img/portfolio/4.jpg" />
                                     <img src="img/portfolio/4.jpg" alt="..." className="img-fluid" />
-                                </picture>
+                                </picture> */}
+
                                 {/* <Image src={portfolioImage4} alt="..." layout='responsive' className="img-fluid" /> */}
                             </a>
                             <div className="portfolio-caption">
@@ -110,12 +119,15 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                {/* <img className="img-fluid" src="img/portfolio/5.jpg" alt="..." /> */}
-                                <picture>
+
+                                <img className="img-fluid" src="img/portfolio/5.jpg" alt="..." />
+
+                                {/* <picture>
                                     <source media="(max-width: 767px)" srcSet="img/portfolio/5-w246.jpg" />
                                     <source media="(min-width: 768px)" srcSet="img/portfolio/5.jpg" />
                                     <img src="img/portfolio/5.jpg" alt="..." className="img-fluid" />
-                                </picture>
+                                </picture> */}
+
                                 {/* <Image src={portfolioImage5} alt="..." layout='responsive' className="img-fluid" /> */}
                             </a>
                             <div className="portfolio-caption">
@@ -131,12 +143,15 @@ function PortfolioGrid () {
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                {/* <img className="img-fluid" src="img/portfolio/6.jpg" alt="..." /> */}
-                                <picture>
+
+                                <img className="img-fluid" src="img/portfolio/6.jpg" alt="..." />
+                                
+                                {/* <picture>
                                     <source media="(max-width: 767px)" srcSet="img/portfolio/6-w246.jpg" />
                                     <source media="(min-width: 768px)" srcSet="img/portfolio/6.jpg" />
                                     <img src="img/portfolio/6.jpg" alt="..." className="img-fluid" />
-                                </picture>
+                                </picture> */}
+
                                 {/* <Image src={portfolioImage6} alt="..." layout='responsive' className="img-fluid" /> */}
                             </a>
                             <div className="portfolio-caption">

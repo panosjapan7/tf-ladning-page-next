@@ -15,13 +15,16 @@ function About () {
                 <ul className="timeline">
                     <li>
                         <div className="timeline-image">
-                            {/* <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt="..." /> */}
-                            <Image 
+
+                            <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt="..." />
+
+                            {/* <Image 
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto1} 
                                 alt="..." 
                                 layout='responsive'
-                            />
+                            /> */}
+
                         </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -33,13 +36,16 @@ function About () {
                     </li>
                     <li className="timeline-inverted">
                         <div className="timeline-image">
-                            {/* <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt="..." /> */}
-                            <Image 
+
+                            <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt="..." />
+                            
+                            {/* <Image 
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto2} 
                                 alt="..." 
                                 layout='responsive'
-                            />
+                            /> */}
+
                         </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -51,13 +57,16 @@ function About () {
                     </li>
                     <li>
                         <div className="timeline-image">
-                            {/* <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt="..." /> */}
-                            <Image 
+
+                            <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt="..." />
+
+                            {/* <Image 
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto3} 
                                 alt="..." 
                                 layout='responsive'
-                            />
+                            /> */}
+
                         </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -69,13 +78,16 @@ function About () {
                     </li>
                     <li className="timeline-inverted">
                         <div className="timeline-image">
-                            {/* <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt="..." /> */}
-                            <Image 
+                            
+                            <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt="..." />
+
+                            {/* <Image 
                                 className="rounded-circle img-fluid" 
                                 src={aboutPhoto4} 
                                 alt="..." 
                                 layout='responsive'
-                            />
+                            /> */}
+
                         </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">

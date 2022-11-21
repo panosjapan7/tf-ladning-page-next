@@ -16,8 +16,10 @@ function Team () {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="team-member">
-                            {/* <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt="..." style={{width:"14rem", height: "14rem"}}/> */}
-                            <Image src={teamImage1} alt="..." layout='responsive' className="mx-auto rounded-circle" width="224px" height="224px"/>
+
+                            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt="..." style={{width:"14rem", height: "14rem"}}/>
+
+                            {/* <Image src={teamImage1} alt="..." layout='responsive' className="mx-auto rounded-circle" width="224px" height="224px"/> */}
 
                             <h4>Parveen Anand</h4>
                             <p className="text-muted">Lead Designer</p>
@@ -25,16 +27,22 @@ function Team () {
                     </div>
                     <div className="col-lg-4">
                         <div className="team-member">
-                            {/* <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt="..." /> */}
-                            <Image src={teamImage2} alt="..." layout='responsive' className="mx-auto rounded-circle" width="224px" height="224px"/>
+
+                            <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt="..." />
+
+                            {/* <Image src={teamImage2} alt="..." layout='responsive' className="mx-auto rounded-circle" width="224px" height="224px"/> */}
+
                             <h4>Diana Petersen</h4>
                             <p className="text-muted">Lead Marketer</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="team-member">
-                            {/* <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt="..." /> */}
-                            <Image src={teamImage3} alt="..." layout='responsive' className="mx-auto rounded-circle" width="224px" height="224px"/>
+
+                            <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt="..." />
+
+                            {/* <Image src={teamImage3} alt="..." layout='responsive' className="mx-auto rounded-circle" width="224px" height="224px"/> */}
+
                             <h4>Larry Parker</h4>
                             <p className="text-muted">Lead Developer</p>
                         </div>

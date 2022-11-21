@@ -18,13 +18,13 @@ function Masthead () {
             <Image src={tiger400} alt="..." layout='responsive' objectFit='cover' objectPosition="center"/> */}
             
             {/* Hero image shown with the use of <Image /> */}
-            <Image 
+            {/* <Image 
                 src={backgroundImage}
                 alt="..."
                 layout='responsive'
                 objectFit='cover'
                 objectPosition="center"
-            />
+            /> */}
 
             
             <div className="container">
